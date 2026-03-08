@@ -29,10 +29,10 @@ def main():
          options=["All Management type"] + sorted(df['Management_type'].unique().tolist())
     )
 
-    Lga_filter=st.sidebar.multiselect( 
-         "Select LGA",
-         options=df['Unique_lga'].unique().tolist(),
-         default=df['Unique_lga'].unique().tolist()
+    State_filter=st.sidebar.multiselect( 
+         "Select State",
+         options=df['State'].unique().tolist(),
+         default=df['State'].unique().tolist()
     )
 
     filtered_data=df.copy()
@@ -40,8 +40,8 @@ def main():
          filtered_data=filtered_data[filtered_data['School_type'] == School_type_filter]
     if Management_type_filter != "All Management type":
          filtered_data=filtered_data[filtered_data['Management_type'] == Management_type_filter]
-    if Lga_filter:
-        filtered_data=filtered_data[filtered_data['Unique_lga'].isin (Lga_filter)]
+    if State_filter:
+        filtered_data=filtered_data[filtered_data['State'].isin (State_filter)]
 
     st.title("🏫📚Educational Infrastructure and Access Dashboard")
     st.markdown("---")
@@ -95,7 +95,7 @@ def main():
     fig_students = px.histogram(
        filtered_data,
         x="Total_students",
-        nbins=70,
+        nbins=10,
         color_discrete_sequence=["#BEF63B"],
 
     )
