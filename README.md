@@ -27,6 +27,7 @@ These indicators help provide a clearer picture of the learning environment in N
 
 **⚒️Tools and Technologies Used**
 The following tools were used in this project:
+
 • Python - data cleaning
 • Pandas & NumPy - data manipulation and computation
 • Plotly.express - visualization
