@@ -29,10 +29,9 @@ def main():
          options=["All Management type"] + sorted(df['Management_type'].unique().tolist())
     )
 
-    State_filter=st.sidebar.multiselect( 
-         "Select State",
-         options=df['State'].unique().tolist(),
-         default=df['State'].unique().tolist()
+    State_filter=st.sidebar.selectbox(
+       "Select State:",
+       options=["All State"] + sorted(df['State'].unique().tolist())
     )
 
     filtered_data=df.copy()
@@ -40,8 +39,8 @@ def main():
          filtered_data=filtered_data[filtered_data['School_type'] == School_type_filter]
     if Management_type_filter != "All Management type":
          filtered_data=filtered_data[filtered_data['Management_type'] == Management_type_filter]
-    if State_filter:
-        filtered_data=filtered_data[filtered_data['State'].isin (State_filter)]
+    if State_filter != "All State":
+        filtered_data=filtered_data[filtered_data['State'] == State_filter]
 
     st.title("🏫📚Educational Infrastructure and Access Dashboard")
     st.markdown("---")
@@ -104,7 +103,7 @@ def main():
      
     col1, col2=st.columns(2)
     with col1:
-      st.subheader("Comparison of Management Type")
+      st.subheader("Comparison by Management Type")
       management_type_comparison=filtered_data.groupby('Management_type')['Total_students'].sum().reset_index()
       management_type_comparison = management_type_comparison.sort_values(by='Total_students', ascending=False)
       fig_management_comparison=px.bar(
@@ -160,11 +159,24 @@ def main():
        lat="Latitude",
        lon="Longitude",
        hover_name="School_name",
+       color='School_type',
        zoom=5,
        title="Map of School Locations"
     )
     fig.update_layout(mapbox_style="open-street-map")
     st.plotly_chart(fig, use_container_width=True)
+
+
+    csv = filtered_data.to_csv(index=False)
+    st.download_button(
+    label="Download Filtered Data as CSV",
+    data=csv,
+    file_name='filtered_education.csv',
+    mime='text/csv'
+    )
+
+    st.markdown('---')
+    st.caption("Educational Infrastructure and Access Dashboard | Data updated in real-time.")
 
 if __name__ == "__main__":
         main()
