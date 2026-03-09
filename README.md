@@ -13,32 +13,51 @@ This project aims to:
 • Highlight regional disparities in educational infrastructure
 
 **📊 Dataset Overview**
+
 The dataset contains information on educational facilities across Nigeria. It includes variables related to:
+
 • School type
+
 • Total Students
+
 • Total teachers
+
 • Water Supply
+
 • Sanitation facilities
+
 • Electricity access
+
 • Chalkboard in classroom
+
 • Unique LGA
+
 • Latitude & Longitude
+
 These indicators help provide a clearer picture of the learning environment in Nigerian schools.
 
 **⚒️Tools and Technologies Used**
+
 The following tools were used in this project:
 
 • Python - data cleaning
+
 • Pandas & NumPy - data manipulation and computation
+
 • Plotly.express - visualization
+
 • Jupyter Notebook - data exploration
+
 • Streamlit - interactive dashboards
 
 **📸 Dashboard Preview**
 
 **🔎 Key Insights**
+
 The analysis of educational facilities across Nigeria reveals critical patterns about school infrastructure, teacher availability, and regional disparities. Below are the most significant findings:
+
 - The most common type of educational facility is the **primary school education**, showing that basic education is the most widely available level of education across the country.
+
 ## Infrastructure Availability
 - **36.93%** of schools have improved water supply, which can affect hygiene and student health.
 - **44.63%** of schools have improved sanitation showing that more than half of schools operate without proper sanitation facilities, creating health risks for both students and teachers. The student-to-toilet ratio stands at **116.78**, indicating that a single toilet facility may serve well over one hundred students in many schools. Thus, highlighting strain on school infrastructure and challenges in maintaining proper hygiene during the school day.
@@ -54,15 +73,23 @@ Schools in the North-West and North-East regions, particularly in Taraba, Yobe, 
 This highlights unequal access to educational infrastructure across regions.
 
 **💡 Policy Recommendations for Governments and NGOs**
+
 • Increase investment in electricity access, water supply and sanitation for schools, especially public schools. As well, schools in regions with the lowest access (e.g., Taraba, Yobe, zamfara, Bauchi, Jigawa) should be prioritized to enhance regional equity.
+
 • Government should address teacher shortages by recruiting more qualified teachers to reduce the student-to-teacher ratio, particularly in overcrowded public schools. Also, implement incentives for teachers to work in underserved regions.
+
 • Resource provision for learning materials. Chalkboards, textbooks, and basic teaching tools should be provided in all classrooms. Likewise, digital learning tools where electricity and internet access are available should be provided.
 
 **📊 Why This Project Matters**
+
 This project goes beyond visualization. 
+
 It demonstrates how data can:
+
 • Highlight real challenges in Nigerian Schools
+
 • Support Evidence-Based Decision Making
+
 • Promotes Equity in Education
 
 
