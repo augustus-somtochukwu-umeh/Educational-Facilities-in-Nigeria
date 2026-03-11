@@ -2,7 +2,7 @@
 
 ##  📍Project Overview
 
-Education is widely regarded as the foundation of national development. In Nigeria, millions of children attend school daily with the hope that education will improve their future opprotunities. However, the quality of education is strongly influenced by the availability of infrastructure, teachers, and learning resources.
+Education is widely regarded as the foundation of national development. In Nigeria, millions of children attend school daily with the hope that education will improve their future opportunities. However, the quality of education is strongly influenced by the availability of infrastructure, teachers, and learning resources.
 
 This Project analyzes data on educational facilities in Nigeria to uncover insights about schoool infrastructure, teacher availability, and regional disparities. The analysis highlights the realities within Nigeria's education system and provides evidence that can support better policy decisions.
 
@@ -12,11 +12,7 @@ This project aims to:
 
 • Analyze the availability of educational infrastructure in Nigerian schools
 
-• Examine teacher distribution and student-to-teacher ratios
-
-• Identify sanitation and facility gaps affecting learning environments
-
-• Explore the distribution of students across public, private, and faith-based schools
+• Examine teacher distribution and student enrollment across school types
 
 • Highlight regional disparities in educational infrastructure
 
