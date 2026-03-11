@@ -57,6 +57,8 @@ The following tools were used in this project:
 ## 📸 Dashboard Preview 
 ## ![📸 Dashboard Preview](streamlit_dashboard.png)
 
+View the full dashboard via this link: https://augustus-somtochukwu-umeh-educational-faci-education-app-i21jbw.streamlit.app/%23map-visualization-of-school-location
+
 
 ##  🔎 Key Insights
 
@@ -66,15 +68,15 @@ The analysis of educational facilities across Nigeria reveals critical patterns 
 
 **Infrastructure Availability**
 
-- **36.93%** of schools have improved water supply, which can affect hygiene and student health.
+- **36.93%** of schools have improved water supply, raising serious concerns about hygiene, sanitation, and the overall health of students.
 
 - **44.63%** of schools have improved sanitation showing that more than half of schools operate without proper sanitation facilities, creating health risks for both students and teachers. The student-to-toilet ratio stands at **116.78**, indicating that a single toilet facility may serve well over one hundred students in many schools. Thus, highlighting strain on school infrastructure and challenges in maintaining proper hygiene during the school day.
 
-- **23.62%** of schools have electricity access. Most schools function without electricity, limiting learning tools and lighting for effective learning.
+- **23.62%** of schools have electricity access. Most schools function without electricity. This restricts the use of digital learning tools, limits access to modern teaching resources, and can negatively affect the overall learning environment.
 
-- **48.55%** of schools have chalkboards in classrooms. Lack of basic teaching materials may impact lessson delivery.
+- Basic teaching infrastructure is also insufficient. Only **48.55%** of schools have chalkboards available in classrooms, showing that many teachers may lack even the most fundamental tools needed for effective lesson delivery.
 
-- Public schools face notable infrastructure deficits as less than 40% of public schools have access to electricity, improved water supply, and improved sanitation.
+- The situation is particularly concerning in public schools, where not more than **30%** have access to electricity, improved water supply, or improved sanitation. These infrastructure gaps highlight systemic challenges within the education system and underscore the urgent need for targeted investment to improve learning conditions.
 
 **Teacher and Student Analysis**
 
@@ -89,9 +91,9 @@ Public schools educate the majority of Nigerian students. 81% of students are en
 Schools in the North-West and North-East regions, particularly in Taraba, Yobe, Zamfara, Bauchi, and Jigawa have little or no access to electricity, improved water supply, or sanitation facilities. 
 This highlights unequal access to educational infrastructure across regions.
 
-##  💡 Policy Recommendations for Governments and NGOs
+##  💡 Recommendations 
 
-• Increase investment in electricity access, water supply and sanitation for schools, especially public schools. As well, schools in regions with the lowest access (e.g., Taraba, Yobe, zamfara, Bauchi, Jigawa) should be prioritized to enhance regional equity.
+• Increase investment in electricity access, water supply and sanitation for schools, especially public schools. As well as schools in regions with the lowest access (e.g., Taraba, Yobe, zamfara, Bauchi, Jigawa) should be prioritized to enhance regional equity.
 
 • Government should address teacher shortages by recruiting more qualified teachers to reduce the student-to-teacher ratio, particularly in overcrowded public schools. Also, implement incentives for teachers to work in underserved regions.
 
