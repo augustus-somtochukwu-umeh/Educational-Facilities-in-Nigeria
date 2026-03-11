@@ -54,7 +54,9 @@ The following tools were used in this project:
 
 • Streamlit - interactive dashboards
 
+## 📸 Dashboard Preview 
 ## ![📸 Dashboard Preview](streamlit_dashboard.png)
+
 
 ##  🔎 Key Insights
 
