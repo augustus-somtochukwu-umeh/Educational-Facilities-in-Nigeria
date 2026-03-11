@@ -111,4 +111,6 @@ It demonstrates how data can:
 
 • Promote Equity in Education
 
+**Data Source:** https://open.africa/dataset/educational-facilities-in-nigeria
+
 
